@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}   
+
+header {
+    width: 100%;
+    background: #9aa7b2;
+}
+
+img.logo{
+    margin: 0;
+    float: left;
+    padding-bottom: 1%;
+    margin-left: 4%;
+    height: 60px;
+    margin-top: 4px;
+}
+
+nav li{   
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 1.5%;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 0.9em;
+}
+    
+.active{
+    border-radius: 3px;
+    background-color: #333a56;
+}
+
+a:hover:not(.active){
+    border-radius: 3px;
+    background-color: #c7c7c7;
+}
+
+nav:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.mainHeader img{
+    width: 100%;
+    border-top: 2px solid #333a56;
+    border-bottom: 2px solid #333a56;
+}
+
+/*.mainHeader{
+    max-height: 500px;
+    overflow: hidden;
+}*/
+
+.container{
+    width: 96%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+.search{
+    margin: auto;
+    width: 50%;
+    margin-top: 40px;
+}
+
+ h2{
+    margin-bottom: 20px;
+    font-family: arial;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    color: #333a56;
+}
+
+input[type=text]{
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    
+}
+    
+input[type=button]:hover{
+    background-color: black;
+}
+
+input[type=button] {
+    width: 20%;
+    margin-top: 0.5px;
+    padding: 13px;
+    float: right;
+    background-color: #333a56;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 2s;
+    /*
+    
+    padding: 16px 32px;
+    */
+}
+
+#backgroundcolor{
+    background-color: #d7dde9;
+}
+
+.search:after{
+    display: block;
+    content:"";
+    clear: both;
+}
+
+#featurepoints li{
+    float: left;
+    width: 31.3%;
+    padding: 1%;
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.6em;
+}
+
+#featurepoints:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.acontainer h2{
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.contaainer h2{
+    border-top: 1px solid #c7c7c7;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+#containerpara{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #474747;
+    font-style: oblique;
+}
+
+#featurepoints img{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#featurepoints h3{
+    color: #333a56;
+}
+
+#featurepoints p{
+    color: #335856;
+}
+
+#quote{
+    border-top: 1px solid #c7c7c7;
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#quote blockquote, h4{
+    font-family: sans-serif;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 20px solid #ccc;
+  margin: 1.8em 10px;
+  padding: 1.5em 10px;
+    padding-top: 2.5em;
+    color: #335856;
+}
+
+blockquote:before {
+  color: #c7c7c7;
+  content: open-quote;
+  font-size: 6em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.46em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+footer {
+    background: #161924;
+    padding: 30px 0;
+    border-top: 5px solid #050a15;
+}
+
+footer h4{
+    margin: 0;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+footer ul{
+    float: left;
+    width: 25%;
+    list-style-type: none;
+}
+
+footer:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+footer li{
+    color: #aaa;
+    width: 80%;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+#copy{
+    margin: 30px auto 0 auto;
+    clear:both;
+    padding-top: 30px;  
+    float: left;
+    width: 100%;
+    border-top: 2px solid #333;
+    color: #999;
+    font-size: 14px;
+}
