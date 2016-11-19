@@ -1,0 +1,494 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}   
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #9aa7b2;
+    position: fixed;
+    overflow: hidden;
+    margin: 0px;
+    border-bottom: 2px solid #333a56;
+}
+
+img.logo{
+    float: left;
+    padding-bottom: 1%;
+    margin-left: 4%;
+    height: 40px;
+    padding-top: 2px;
+}
+
+nav li{   
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 18px 15px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 5%;
+}
+
+footer p{
+    padding-left: 5%;
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 0.9em;
+}
+    
+.active{
+    border-radius: 3px;
+    background-color: #333a56;
+}
+
+nav ul li a:hover:not(.active){
+    border-radius: 3px;
+    background-color: #c7c7c7;
+}
+
+nav:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.mainHeader img{
+    margin-top: 1.25%;
+    width: 100%;
+    border-top: 2px solid #333a56;
+    border-bottom: 2px solid #333a56;
+}
+
+/*.mainHeader{
+    max-height: 500px;
+    overflow: hidden;
+}*/
+
+.mainContent{
+    background-color: #9aa7b2;
+    min-height: 335px;
+    margin: 5% auto;
+    border-radius: 10px;
+    margin-top: 0%;
+}
+section {
+    
+    padding-top: 6%;
+}
+.mainContent h2{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+    padding: 2%;
+    font-family: Tahoma;
+    background-color: #333a56;
+}
+
+.container{
+    width: 96%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2%;
+}
+.push{
+    height: 150px;
+}
+
+
+.search{
+    margin: auto;
+    width: 50%;
+    margin-top: 40px;
+}
+
+ h2{
+    margin-bottom: 20px;
+    font-family: arial;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    color: #333a56;
+}
+
+input[type=text]{
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    
+}
+    
+input[type=button]:hover{
+    background-color: black;
+}
+
+input[type=button] {
+    width: 20%;
+    margin-top: 0.5px;
+    padding: 13px;
+    float: right;
+    background-color: #333a56;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 2s;
+    /*
+    
+    padding: 16px 32px;
+    */
+}
+
+#backgroundcolor{
+    background-color: #d7dde9;
+    padding-top: 0.01%;
+}
+
+
+.search:after{
+    display: block;
+    content:"";
+    clear: both;
+}
+
+#featurepoints li{
+    float: left;
+    width: 31.3%;
+    padding: 1%;
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.6em;
+}
+
+#featurepoints:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.acontainer h2{
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.contaainer h2{
+    border-top: 1px solid #c7c7c7;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+#containerpara{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #474747;
+    font-style: oblique;
+}
+
+#featurepoints img{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#featurepoints h3{
+    color: #333a56;
+}
+
+#featurepoints p{
+    color: #335856;
+}
+
+#quote{
+    border-top: 1px solid #c7c7c7;
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#quote blockquote, h4{
+    font-family: sans-serif;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 20px solid #ccc;
+  margin: 1.8em 10px;
+  padding: 1.5em 10px;
+    padding-top: 2.5em;
+    color: #335856;
+}
+
+blockquote:before {
+  color: #c7c7c7;
+  content: open-quote;
+  font-size: 6em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.46em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.push:after{
+    display:block;
+    content:"";
+    clear: both;
+}
+footer {
+    background: #161924;
+    padding: 30px 0;
+    border-top: 5px solid #050a15;
+    height: 200px;
+}
+
+footer h4{
+    margin: 0;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+footer ul{
+    float: left;
+    width: 30%;
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+footer:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+footer li{
+    color: #aaa;
+    width: 80%;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+#copy{
+    margin: 30px auto 0 auto;
+    clear:both;
+    padding-top: 20px;  
+    float: left;
+    width: 100%;
+    border-top: 2px solid #333;
+    color: #999;
+    font-size: 14px;
+}
+
+/* CONTACT US PAGE */
+h3{
+    font-family: verdana;
+    
+}
+.mainContent p.p1{
+    background-color: #333a56;
+    width: 250px;
+    padding: 10px 0;
+}
+.mainContent p{
+    color: white;
+    padding: 0 4%;
+    font-family: Tahoma;
+}
+
+/* BLOG PAGE */
+.mainContent h3{
+    font-family: arial;
+    font-size: 1.5em;
+    background-color: white;
+    width: 250px;
+    color: #333a56;
+    margin-bottom: -20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+article{
+    background-color: white;
+    width: 250px;
+    margin: 0px 50px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+article img{
+    width: 100px;
+    height: 100px;
+}
+
+article p{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/*TEACHERS*/
+.mainContent ul li{
+    list-style: none;
+    background-color: #333a56;
+    padding: 10px 0px;
+    
+}
+
+.mainContent a{
+    text-decoration: none;
+    color: white;
+    font-family: verdana;
+    font-size: 1.2em;
+    display: block;
+}
+
+
+.mainContent ul{
+    margin: 20px 0px;
+}
+
+.mainContent li:hover{
+    background-color: #445080;
+    padding: 12px 15px;
+    transition: background-color 0.5s;
+    transition: padding 0.4s;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+.dropdown2 {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    width: 100%;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}*/
+
+
+@media screen and (max-width: 960px){
+    
+    #featurepoints li{
+        width: 40%;
+        padding: 0 5%;
+        margin: 20px 0;
+    }
+    #featurepoints li:nth-child(3){
+        clear: both;
+        width: 90%;
+    }
+    
+    .container{
+        width: 96%;
+        max-width: 960px;
+    }
+
+    .search{
+        margin-right:1%;
+        width: 96%;
+        margin-top: 40px;
+    }
+    
+    #quote{
+        margin: auto;
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .container{
+        width: 92%;
+    }
+    nav ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .search{
+        width: 100%;
+        margin-top: 40px;
+    }
+    img.logo{
+        float: none;
+        margin: 0 37%;
+    }
+    header nav{
+        float: none;
+    }
+    header nav li{
+        margin-left: 2%;
+        width: 16.66%;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    #featurepoints li{
+        width: 90%;
+    }
+    
+    #quote{
+        margin: 0;
+        width: 100%;
+        margin-top: 40px;
+    }
+}
