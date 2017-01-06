@@ -73,12 +73,6 @@ nav:after{
     clear: both;
 }
 
-.mainHeader img{
-    margin-top: 1.25%;
-    width: 100%;
-    border-top: 2px solid #333a56;
-    border-bottom: 2px solid #333a56;
-}
 
 /*.mainHeader{
     max-height: 500px;
@@ -109,6 +103,11 @@ section {
     padding: 0 4%;
     font-family: Tahoma;
 }
+
+.mainContent hr{
+    margin-top: 19px;
+}
+
 .container{
     width: 96%;
     height: 100%;
@@ -120,150 +119,11 @@ section {
     height: 150px;
 }
 
-
-.search{
-    margin: auto;
-    width: 50%;
-    margin-top: 40px;
-}
-
- h2{
-    margin-bottom: 20px;
-    font-family: arial;
-    font-size: 2em;
-    text-align: center;
-    font-weight: bolder;
-    color: #333a56;
-}
-
-input[type=text]{
-    float: left;
-    width: 80%;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png');
-    background-size: 40px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    
-}
-    
-input[type=button]:hover{
-    background-color: black;
-}
-
-input[type=button] {
-    width: 20%;
-    margin-top: 0.5px;
-    padding: 13px;
-    float: right;
-    background-color: #333a56;
-    border: none;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 1em;
-    transition: background-color 2s;
-    /*
-    
-    padding: 16px 32px;
-    */
-}
-
 #backgroundcolor{
     background-color: #d7dde9;
     padding-top: 0.01%;
 }
 
-
-.search:after{
-    display: block;
-    content:"";
-    clear: both;
-}
-
-#featurepoints li{
-    float: left;
-    width: 31.3%;
-    padding: 1%;
-    text-align: center;
-    list-style-type: none;
-    line-height: 1.6em;
-}
-
-#featurepoints:after{
-    display: block;
-    content: "";
-    clear: both;
-}
-
-.acontainer h2{
-    margin-top: 40px;
-    padding-top: 40px;
-}
-
-.contaainer h2{
-    border-top: 1px solid #c7c7c7;
-    margin-top: 40px;
-    padding-top: 40px;
-}
-
-#containerpara{
-    margin-top: -20px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #474747;
-    font-style: oblique;
-}
-
-#featurepoints img{
-    margin-top: 10px;
-    padding-top: 10px;
-}
-
-#featurepoints h3{
-    color: #333a56;
-}
-
-#featurepoints p{
-    color: #335856;
-}
-
-#quote{
-    border-top: 1px solid #c7c7c7;
-    margin-top: 30px;
-    padding-top: 30px;
-    text-align: center;
-}
-
-#quote blockquote, h4{
-    font-family: sans-serif;
-}
-
-blockquote {
-  background: #f9f9f9;
-  border-left: 20px solid #ccc;
-  margin: 1.8em 10px;
-  padding: 1.5em 10px;
-    padding-top: 2.5em;
-    color: #335856;
-}
-
-blockquote:before {
-  color: #c7c7c7;
-  content: open-quote;
-  font-size: 6em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.46em;
-}
-
-blockquote p {
-  display: inline;
-}
 
 .push:after{
     display:block;
@@ -323,23 +183,31 @@ h3{
 
 /* BLOG PAGE */
 .mainContent h3{
-    font-family: arial;
-    font-size: 1.5em;
-    background-color: white;
+    background-color: silver;
+    float: left;
+    font-size: 1.1em;
     width: 200px;
     color: #333a56;
-    margin-bottom: -20px;
+    margin-bottom: -0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: -1px -3px 5px #888888;
+}
+
+.mainContent a{
+    display: block;
+}
+
+.mainContent .activeDept{
+    background-color: white;
+    
 }
 
 /*TEACHERS*/
-.mainContent ul li{
-    list-style: none;
-    background-color: #333a56;
-    padding: 10px 0px;
-    
-}
+
+
 
 .mainContent a{
     text-decoration: none;
@@ -360,53 +228,105 @@ h3{
     transition: background-color 0.5s;
     transition: padding 0.4s;
 }
-/*
-.dropbtn {
-    background-color: #4CAF50;
+
+
+/* COMPUTER SCIENCE */
+
+.teachers{
+    margin-top: 20px;
+}
+
+.teachers img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.teachers .teachername{
+    background-color: silver;
+    border: 0.5px solid grey;
+    width: 200px;
+    font-family: verdana;
+    color: #333a56;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -4px;
+}
+
+
+section h2{
+    text-align: center;
+}
+
+.teachers p{
+    font-family: verdana;
+}
+
+.teacher{
+    width: 250px;
+    float: left;
+    display: block;
+    min-height: 500px;
+    min-width: 380px;
+    border: 1px solid silver;
+    margin-left: 13px;
+}
+
+.teacher:nth-child(even){
+    border: 1px solid grey;
+}
+
+.clearfix{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.teachers .teacherdesc{
+    color: #333a56;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 0.85em;
+}
+
+.teachers button{
+    padding: 3px 100px;
+    background-color: #333a56;
     color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}*/
-
-.dropdown {
-    position: relative;
-    display: block;
-}
-.dropdown2 {
-    position: relative;
-    display: block;
+    font-family: verdana;
+    box-shadow: 1px 1px 5px #333a56;
 }
 
-.dropdown-content {
+.showHide{
     display: none;
-    width: 100%;
-    position: relative;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: grey;
+    padding: 15px;
+    border: 1px solid black;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.showHide ul{
+    list-style: none;
+    color: white;
+    margin: 0px;
 }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1
+.showHide ul li:hover{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background-color: grey;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.showHide h5{
+    font-size: 1em;
+    margin-top: 10px;
 }
 
-/*.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}*/
-
+.sources{
+    color: white;
+    height: 50px;
+    margin-top: 50px;
+}
 
 @media screen and (max-width: 960px){
     
