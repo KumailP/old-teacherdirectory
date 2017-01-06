@@ -440,13 +440,6 @@ article p{
         width: 96%;
         max-width: 960px;
     }
-
-    .search{
-        margin-right:1%;
-        width: 96%;
-        margin-top: 40px;
-    }
-    
     #quote{
         margin: auto;
         width: 100%;
@@ -456,24 +449,15 @@ article p{
 
 @media screen and (max-width: 768px){
     
-    .container{
+/*    .container{
         width: 92%;
     }
-    nav ul{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .search{
-        width: 100%;
-        margin-top: 40px;
-    }
-    img.logo{
-        float: none;
-        margin: 0 37%;
+    
+    header .logo{
+        float: left;
     }
     header nav{
-        float: none;
+        float: left;
     }
     header nav li{
         margin-left: 2%;

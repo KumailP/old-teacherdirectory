@@ -31,9 +31,9 @@
             <h2>TEACHERS</h2>
             <center>
                 <h3>INSTITUTES</h3>
-                <ul><div class="dropdown">
-                    <a href="#" class="dropbtn"><li>DHA Suffa University</li></a>
-                        <div class="dropdown-content">
+                <ul><div class="dropdown1">
+                    <a href="#" class="dropbtn"><li>DHA Suffa University</li></a>    
+                    <div class="dropdown-content dropcont1">
                             <a href="teachers/DSU/cs.html">Computer Science</a>
                             <a href="teachers/DSU/ee.html">Electrical Engienering</a>
                             <a href="teachers/DSU/me.html">Mechanical Engineering</a>
@@ -60,7 +60,7 @@
             </ul>
             <ul>
             <li><h4>About Us</h4>
-                <p></p>
+                <p>This is the first semester project of CS101 at DHA Suffa University. Designed and developed by Kumail Pirzada & Shayan Mustafa.</p>
             </li>
             </ul><!--
             <ul>
@@ -85,4 +85,12 @@
     </div>
 </body>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown1").click(function(){
+        $(".dropcont1").toggle(500);
+    });
+});
+    </script>
 </html>
